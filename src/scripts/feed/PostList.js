@@ -11,7 +11,7 @@ export const PostList = () => {
             like.userId === parseInt(localStorage.getItem("gg_user")) &&
             like.postId === post.id
         )
-        const htmlRepresentationOfThisPost = Post(post)
+        const htmlRepresentationOfThisPost = Post()
         htmlStringOfAllPosts += htmlRepresentationOfThisPost
     }
 

@@ -32,16 +32,3 @@ export const renderApp = () => {
 }
 
 renderApp()
-
-
-
-/*
-    * Talk about objects and state
-    * Talk about databases, a single place where data is stored
-    * Talk about how a browser based application loads some, or all of that data, and
-        stores it as state to be rendered as HTML
-    * Give students the main module
-    * Give students the data store module
-    * Give students the Post module
-    * Give students the GiffyGram module
-*/

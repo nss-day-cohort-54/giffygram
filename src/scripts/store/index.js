@@ -186,7 +186,7 @@ export const getShowFavorites = () => {
 }
 
 export const deletePost = (id) => {
-    const index = applicationState.posts.findIndex(p => p.id === id)
+    const index = applicationState.posts.findIndex(p => p.postId === id)
     applicationState.posts.splice(index, 1)
 }
 

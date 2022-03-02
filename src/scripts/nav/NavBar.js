@@ -8,7 +8,9 @@ document.addEventListener("click", e => {
 })
 
 export const NavBar = () => {
-    const messages = getMessages().filter(m => m.recipientId === parseInt(localStorage.getItem("gg_user")))
+    const messages = getMessages().filter(
+        m => m.recipienId === parseInt(localStorage.getItem("gg_user"))
+    )
 
     return `
         <nav class="navigation">

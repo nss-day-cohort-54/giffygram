@@ -32,7 +32,7 @@ export const createPost = post => {
 export const deletePost = id => {
     const auth = useSimpleAuth()
 
-    return fetch(`http://localhost:3000/posts/${id}`, {
+    return fetch(`http://localhost:3000/posts`, {
         method: "DELETE",
         headers: {
             "Authorization": `Bearer ${auth.token}`
